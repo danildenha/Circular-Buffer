@@ -7,3 +7,4 @@ This C++ project implements a circular buffer using a templated class with STL `
 - `Circular_Buffer.h`: Header file containing the implementation of the CircularBuffer class.
 - `Dog.h` Header file containing implementation for Dog class used as a type in Circular Buffer
 - `Test.cpp`: Contains initial tests for functionality.
+
