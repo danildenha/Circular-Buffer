@@ -34,7 +34,6 @@ int main() {
     }
     cout << endl;
 
-
     cout << "\n*************** <string> Circular Buffer Demo ******************\n";
 
     // creates a vector of words
@@ -94,9 +93,5 @@ int main() {
         cout << DogBuffer << endl;
     }
     
-
-
-
-
     cout << endl;
 }
