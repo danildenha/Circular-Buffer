@@ -14,7 +14,6 @@ using namespace std;
 
 int main() {
     cout << "\n*************** <int> Circular Buffer Demo ******************\n";
-    //  FINISH THIS SECTION
     cout << "\nInitial state\n" << endl;
     CircularBuffer<int, 5> IntBuffer;
     cout << IntBuffer;
@@ -39,13 +38,13 @@ int main() {
     cout << "\n*************** <string> Circular Buffer Demo ******************\n";
 
     // creates a vector of words
-    // use back_insert_iterator to fill the buffer
+    // uses back_insert_iterator to fill the buffer
     vector<string> words = {"easy", "project", "the", "wonderful", "world", "of", "oz"};
     CircularBuffer<string, 5> StrBuffer;
     cout << "\nInitial state" << endl;
     cout << StrBuffer;
 
-    //insert words from vector into buffer using back_insert_iterator
+    //inserts words from vector into buffer using back_insert_iterator
     back_insert_iterator<CircularBuffer<string, 5>> inserter(StrBuffer);
     for_each(words.begin(), words.end(), [&inserter](string word) { *inserter = word; });
     cout << "\nAfter using back_insert_iterator" << endl;
@@ -61,7 +60,6 @@ int main() {
 
     cout << "\n*************** <Dog> Circular Buffer Demo ******************\n\n";
 
-    //FINISH THIS SECTION
     CircularBuffer<dog, 5> DogBuffer;
     //dog(string name = "", string breed = "", int age = 0)
     dog dogs[5] = {
