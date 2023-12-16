@@ -5,6 +5,7 @@
 using namespace std;
 
 class dog {
+
 private:
 	string name;
 	string breed;
@@ -25,10 +26,9 @@ public:
 
 	void setAge(int age) { this->age = age; }
 };
+
 ostream& operator<<(ostream& out, const dog& d) {
 	out << "\n\t" << d.getName() << ", " << d.getBreed() << ", " << d.getAge();
 	return out;
 }
 #endif
-
-

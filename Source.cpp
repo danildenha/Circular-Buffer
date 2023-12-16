@@ -1,4 +1,3 @@
-
 // Project Circular Buffer
 //This project uses technique of circular buffer and manages data
 
