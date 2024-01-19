@@ -6,8 +6,8 @@
 #include <algorithm>
 #include <iterator>
 #include <vector>
-#include "circular_buffer.h"
-#include "dog.h"
+#include "Circular_Buffer.h"
+#include "Dog.h"
 
 using namespace std;
 
